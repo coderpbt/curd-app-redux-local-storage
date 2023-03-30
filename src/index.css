@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.add-post-parent {
+  text-align: center;
+}
+
+.post-input-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  height: 40px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  font-family: tahoma;
+  color: #ccc;
+}
+
+.post-input-box > textarea {
+  height: 100px;
+  font-size: 14px;
+  padding: 10px;
+}
+
+button {
+  margin: 5px;
+  width: 115px;
+  display: inline-block;
+  background: #ccc;
+  border: navajowhite;
+  padding: 10px;
+  font-size: 15px;
+  font-family: tahoma;
+  font-weight: 600;
+  cursor: pointer;
+  color: #212121;
+}
+
+.single-post-parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  text-align: center;
+}
+
+.single-post {
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 15px;
+}
